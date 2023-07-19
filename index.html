@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hometown.css" />
+    <title>Hometown home page</title>
+  </head>
+  <body>
+    <div id="hero">
+      <h1 id="hero-heading">Visit Iceland</h1>
+      <p id="hero-para">Nature's wonders await your exploration</p>
+      <button id="btn"><a href="#form">Inquire Now</a></button>
+    </div>
+    <div class="heading"><h2>Top three places to visit at Iceland</h2></div>
+    <div id="loc-section">
+      <div class="locations">
+        <img
+          src="\assets\Thingvellir National Park.jpg"
+          class="loc-img"
+          alt="national park"
+        />
+        <p>
+          Þingvellir (Thingvellir) is a historic site and national park in
+          Iceland, east of Reykjavík. It's known for the Alþing (Althing), the
+          site of Iceland's parliament from the 10th to 18th centuries. On the
+          site are the Þingvellir Church and the ruins of old stone shelters.
+          The park sits in a rift valley caused by the separation of 2 tectonic
+          plates, with rocky cliffs and fissures like the huge Almannagjá fault.
+        </p>
+      </div>
+      <div class="locations">
+        <img
+          src="\assets\landmannalaugar.jpg"
+          class="loc-img"
+          alt="landmannalaugar"
+        />
+        <p>
+          Landmannalaugar is a location in Iceland's Fjallabak Nature Reserve in
+          the Highlands. It is on the edge of the Laugahraun lava field. This
+          lava field was formed by an eruption in approximately 1477. It is
+          largely known for its natural geothermal hot springs and surrounding
+          landscape.
+        </p>
+      </div>
+      <div class="locations">
+        <img src="\assets\Mývatn.jpg" class="loc-img" alt="Mývatn" />
+        <p>
+          Mývatn is a volcanic lake in northern Iceland. On the northeastern
+          shore, Reykjahlíð village has an information center and is a base for
+          exploring the area. East of here, Mývatn Nature Baths have a naturally
+          heated man-made lagoon, with mineral-rich waters known for their
+          health-giving properties. A short distance away, near Námafjall
+          Mountain, is Hverir, a hot-springs area with boiling mud pots and
+          fumaroles.
+        </p>
+      </div>
+    </div>
+    <div id="guide">
+      <div class="guide-section">
+        <img src="/assets/guide.jpg" alt="guide photo" id="guide-img" />
+      </div>
+      <div class="guide-section">
+        <h4>
+          I have lived at Iceland for over 30 years, so I can show you all of
+          its best parts and hidden secrets.
+        </h4>
+        <h3 id="guide-name">Larah - Your Guide</h3>
+      </div>
+    </div>
+    <footer id="footer-section">
+      <div id="form">
+        <form action="#" id="contactForm" onsubmit="submitForm(event)">
+          <!-- <label for="email">Email:</label> -->
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email..."
+            required
+          />
+          <!-- <label for="message">Message:</label><br /> -->
+          <textarea
+            id="message"
+            name="message"
+            rows="7"
+            cols="22"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+          <button type="submit" id="submit-btn" disabled>Submit</button>
+        </form>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+body {
+  color: rgb(94, 121, 175);
+  text-align: center;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#hero {
+  background: url("/assets/iceland.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0 20px 0;
+  height: 50vh;
+}
+
+#hero-heading {
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  font-size: 3rem;
+}
+
+#hero-para {
+  color: white;
+  padding: 0 10px 0 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 5px black;
+}
+
+#btn {
+  background: linear-gradient(to bottom, #002F3D, #001A25);
+  color: white;
+  border-radius: 10px;
+  ;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#btn:hover{
+  transform: scale(1.2);
+}
+.heading {
+  color: #001A25;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.loc-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.loc-img:hover {
+  transform: scale(1.2);
+}
+
+.locations {
+  width: 300px;
+  height: 450px;
+  /* background: #A8FF7E; */
+  background: #001A25;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+#loc-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#guide {
+  background: #FFFEED;
+  height: 300px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#guide-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.guide-section {
+  width: 300px;
+  padding: 20px;
+  color: #00212A;
+  font-size: bold;
+}
+
+#footer-section {
+  background: #00212A;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: none;
+  background: #001A25;
+}
+
+::placeholder {
+  color: white;
+}
+
+input,
+textarea {
+  color: white;
+  width: 300px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#message {
+  padding: 8px 14px;
+  border-radius: 5px;
+  border: none;
+  background: #001A25;
+}
+
+#submit-btn {
+  padding: 8px 12px;
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background: #001A25;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 10px;
+  display: block;
+}
+
+#form {
+  background: #FFFEED;
+  border: none;
+  padding: 30px;
+  width: 400px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
