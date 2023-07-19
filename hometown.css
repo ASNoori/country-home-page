@@ -6,7 +6,7 @@ body {
 }
 
 #hero {
-  /* background: url("/assets/iceland.jpg"); */
+  background: url("/assets/iceland.jpg");
   background-size: cover;
   background-position: center;
   padding: 40px 0 20px 0;
