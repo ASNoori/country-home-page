@@ -4,7 +4,9 @@ body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-
+html{
+  scroll-behavior: smooth;
+}
 #hero {
   background: url("/assets/iceland.jpg");
   background-size: cover;
